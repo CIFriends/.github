@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       # with:
       #    ref: "main" # uncomment this line to check out a specific branch
-      - name: PRP Preprocessor
+      - name: Update variables
         uses: CIFriends/prp-preprocessor@v1
         env:
           exampleVar: "Hello, World! This is an example variable."
