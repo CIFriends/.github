@@ -1,6 +1,6 @@
 {
     "name": "prp-preprocessor",
-    "description": "A GitHub Action that preprocesses files",
+    "description": "A versatile GitHub Action that enables variable replacement in files using a simple syntax.",
     "iconName": "prp-icon",
     "categories": [
         "Automation",
@@ -12,6 +12,7 @@
     "filePatterns": [
         ".*\\.prp\\..*",
         ".*\\.md$",
+        ".*\\.json$",
         ".*\\.prp$"
     ]
 }
