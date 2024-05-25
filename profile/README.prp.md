@@ -5,4 +5,4 @@
 
  # CIFriends
  
- _Making your CI/CD experience smoother, friendlier, and more efficient._
+ _{_ motto _}_
