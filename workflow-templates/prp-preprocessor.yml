@@ -1,0 +1,19 @@
+name: Process .prp files
+
+on:
+  push:
+    branches: [ $default-branch ]
+permissions:
+  contents: write
+  
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # with:
+      #    ref: "main" # uncomment this line to check out a specific branch
+      - name: PRP Preprocessor
+        uses: CIFriends/prp-preprocessor@v1
+        env:
+          exampleVar: "Hello, World! This is an example variable."
