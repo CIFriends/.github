@@ -3,11 +3,12 @@
     "description": "A GitHub Action that preprocesses files",
     "iconName": "prp-icon",
     "categories": [
+        "prp",
+        "GitHub Actions",
+        "TypeScript",
         "Java",
         "Markdown",
         "JavaScript",
-        "TypeScript",
-        "GitHub Actions"
     ],
     "filePatterns": [
         ".*\\.prp\\..*",
