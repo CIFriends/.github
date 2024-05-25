@@ -3,15 +3,11 @@
     "description": "A GitHub Action that preprocesses files",
     "iconName": "prp-icon",
     "categories": [
-<<<<<<< HEAD
-        "Automation",
-=======
         "Java",
         "Markdown",
         "JavaScript",
         "TypeScript",
         "GitHub Actions"
->>>>>>> parent of ed7098f (Update prp.properties.json)
     ],
     "filePatterns": [
         ".*\\.prp\\..*",
