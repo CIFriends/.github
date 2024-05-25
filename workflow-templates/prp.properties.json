@@ -1,0 +1,17 @@
+{
+    "name": "prp-preprocessor",
+    "description": "A GitHub Action that preprocesses files",
+    "iconName": "prp-icon",
+    "categories": [
+        "Java",
+        "Markdown",
+        "JavaScript",
+        "TypeScript",
+        "GitHub Actions"
+    ],
+    "filePatterns": [
+        ".*\\.prp\\..*",
+        ".*\\.md$",
+        ".*\\.prp$"
+    ]
+}
